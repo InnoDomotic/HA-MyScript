@@ -1,0 +1,8 @@
+{
+    "domain": "my_python_script",
+    "name": "My Python Script",
+    "documentation": "https://github.com/InnoDomotic/HA-my_script",
+    "dependencies": [],
+    "codeowners": [],
+    "requirements": []
+}
