@@ -4,7 +4,7 @@ import binascii
 from time import sleep
 import paho.mqtt.client as mqtt
 
-with open("/config/Script/smartdomo.yaml", "r") as f:
+with open("/custom_components/my_python_script/smartdomo.yaml", "r") as f:
     Smartdomo_Config = yaml.safe_load(f)
 DebugFlag = Smartdomo_Config["DebugFlag"]
 if DebugFlag: print('DebugFlag: '+str(DebugFlag))

@@ -1,0 +1,5 @@
+DebugFlag: "0"
+Smartdomo_IP: "192.168.0.111"
+MQTT_Broker_IP: "192.168.0.203"
+MQTT_Username: "inno"
+MQTT_Password: "Inno1234"
