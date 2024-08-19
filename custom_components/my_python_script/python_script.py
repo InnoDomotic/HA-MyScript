@@ -1,15 +1,8 @@
 import socket
 import numpy as np
 import binascii
-import yaml
 from time import sleep
 import paho.mqtt.client as mqtt
-import logging
-
-_LOGGER = logging.getLogger(__name__)
-
-_LOGGER.info("Ejecutando el script Python.")
-# Aquí puedes agregar el código que deseas ejecutar
 
 with open("/config/Script/smartdomo.yaml", "r") as f:
     Smartdomo_Config = yaml.safe_load(f)

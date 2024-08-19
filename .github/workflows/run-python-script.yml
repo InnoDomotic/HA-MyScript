@@ -21,7 +21,10 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install -r requirements.txt  # Instala las dependencias si tienes un archivo requirements.txt
+          pip install --upgrade pip
+          pip install numpy --upgrade
+          pip install paho.mqtt --upgrade
+          
 
       - name: Run Python script
         run: |
