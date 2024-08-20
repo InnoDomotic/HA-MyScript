@@ -1,10 +1,11 @@
 import socket
 import numpy as np
 import binascii
+import yaml
 from time import sleep
 import paho.mqtt.client as mqtt
 
-with open("/custom_components/my_python_script/smartdomo.yaml", "r") as f:   
+with open("\custom_components\my_python_script\smartdomo.yaml", "r") as f:   
     Smartdomo_Config = yaml.safe_load(f)
 DebugFlag = Smartdomo_Config["DebugFlag"]
 if DebugFlag: print('DebugFlag: '+str(DebugFlag))
