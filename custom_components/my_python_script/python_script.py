@@ -5,7 +5,7 @@ import yaml
 from time import sleep
 import paho.mqtt.client as mqtt
 
-with open("/custom_components/my_python_script/smartdomo.yaml", "r") as f:   
+with open("C:/Users/joans/Documents/GitHub/HA-MyScript/custom_components/Smartdomo.yaml", "r") as f:   
     Smartdomo_Config = yaml.safe_load(f)
 DebugFlag = Smartdomo_Config["DebugFlag"]
 if DebugFlag: print('DebugFlag: '+str(DebugFlag))
