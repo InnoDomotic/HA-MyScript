@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Utiliza un runner con Ubuntu
+    runs-on: python3  # Utiliza un runner con Ubuntu
 
     steps:
       - name: Checkout code
@@ -24,6 +24,7 @@ jobs:
           pip install --upgrade pip
           pip install numpy --upgrade
           pip install paho.mqtt --upgrade
+          pip install homeassistant
           
 
       - name: Run Python script
