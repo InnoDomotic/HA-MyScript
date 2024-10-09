@@ -198,3 +198,4 @@ while True:
         #aumentar verificacion de resultado del comando scada y en funcion a eso actualiar el estado del sistema
         MQTT_client.publish("SMARTDOMO/ESTADO/SERVICIO","Ok")
         Timer = 0
+        #xd
